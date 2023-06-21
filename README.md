@@ -21,4 +21,10 @@ docker-compose
 - postgresql
 
 
-# Makefile for dumping the db and redis
+# Postgresql
+
+There is a `postgresql` service defined at [docker-compose.yml]() published on 5432 so you can communicate with it through `localhost:5432`.
+
+# Rakefile for dumping the db and redis
+
+
