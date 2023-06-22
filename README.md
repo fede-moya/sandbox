@@ -23,7 +23,7 @@ docker-compose
 
 # Postgresql
 
-There is a `postgresql` service defined at [docker-compose.yml]() published on 5432 so you can communicate with it through `localhost:5432`.
+There is a `postgresql` service defined at [docker-compose.yml](https://github.com/fede-moya/sandbox/blob/master/docker-compose.yml) published on 5432 so you can communicate with it through `localhost:5432`.
 
 *To access a psql prompt run:*
 ```sh
