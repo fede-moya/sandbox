@@ -25,6 +25,11 @@ docker-compose
 
 There is a `postgresql` service defined at [docker-compose.yml]() published on 5432 so you can communicate with it through `localhost:5432`.
 
+*To access a psql prompt run:*
+```sh
+make psql
+```
+
 # Rakefile for dumping the db and redis
 
 
