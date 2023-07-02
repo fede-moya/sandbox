@@ -1,21 +1,21 @@
-programing practice repository (monorepo)
+# SANDBOX
 
-- react
-- rails-with-views
+Programing practice mono-repo with different projects and thechologies pre-set up ready to go for testing ideas or practicing new concepts.
+
+- React
+- Standard Rails without hotwire
   .ruby-version
 - rails-hotwire
   .ruby-version
-- rails-rest-api
+- Rails --api
   .ruby-version
 - rails-graphql-api
   .ruby-version
 - redis (some basic ruby script for interacting with redis directly, demonstrating the different types of data structures it supports)
-  # READMe (with different uses for redis)
 - sql (sql script for creating a database with some dummy data, with also a script for deleting data)
 
-# README
-using nvm for managin node versions
-using rbm for managing ruby versions
+using nvm for managing node versions
+using rvm for managing ruby versions
 
 Most of the third party software needed like postgres or redis is provided through docker containers, with the help of docker-compose.
 
@@ -42,7 +42,7 @@ make postgres.reset
 
 ## Redis
 
-There is a `redis` service defined at [docker-compose.yml](https://github.com/fede-moya/sandbox/blob/master/docker-compose.yml) published on 6379 so you can communicate with it through `localhost:5432`.
+There is a `redis` service defined at [docker-compose.yml](https://github.com/fede-moya/sandbox/blob/master/docker-compose.yml) published on 6379 so you can communicate with it through `localhost:6379`.
 
 *To start a redis server run:*
 
@@ -61,6 +61,4 @@ make redis.cli
 make redis.reset
 ```
 
-# Rakefile for dumping the db and redis
-
-# Rakefile for dumping the db and redis
+# Rakefile for dumping the db and redis and also to feed them with somen dummy data
