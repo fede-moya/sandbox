@@ -15,9 +15,11 @@ Programing practice mono-repo with different projects and thechologies pre-set u
 - sql (sql script for creating a database with some dummy data, with also a script for deleting data)
 
 using nvm for managing node versions
-using rvm for managing ruby versions
 
 Most of the third party software needed like postgres or redis is provided through docker containers, with the help of docker-compose.
+
+# Ruby
+using rvm for managing ruby versions
 
 ## Postgresql
 
