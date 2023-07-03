@@ -6,6 +6,7 @@ All of these application have been setup with some basic posts and comments doma
 
 - Standard Rails 7 application / [rails-sandbox](https://github.com/fede-moya/sandbox/tree/master/rails-sandbox)
 - Rails 7 API only application / [rails-api-sandbox](https://github.com/fede-moya/sandbox/tree/master/rails-api-sandbox)
+- Rails GraphQL API / [rails-graphql-sandbox](https://github.com/fede-moya/sandbox/tree/master/rails-graphql-sandbox)
 - React
 - Standard Rails without hotwire
   .ruby-version
