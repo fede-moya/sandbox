@@ -5,7 +5,7 @@ Programing practice mono-repo with different projects and thechologies pre-set u
 All of these application have been setup with some basic posts and comments domain logic.
 
 - Standard Rails 7 application / [rails-sandbox](https://github.com/fede-moya/sandbox/tree/master/rails-sandbox)
-- Rails 7 API only application / [rails-api-sandbox](https://github.com/fede-moya/sandbox/tree/master/rails-api-sandbox).
+- Rails 7 API only application / [rails-api-sandbox](https://github.com/fede-moya/sandbox/tree/master/rails-api-sandbox)
 - React
 - Standard Rails without hotwire
   .ruby-version
