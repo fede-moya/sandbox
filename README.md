@@ -25,6 +25,23 @@ Most of the third party software needed like postgres or redis is provided throu
 # Ruby
 using rvm for managing ruby versions
 
+```
+brew install rvm
+```
+e.g;
+```
+rvm list
+   ruby-2.6.1 [ x86_64 ]
+   ruby-2.7.5 [ x86_64 ]
+   ruby-2.7.6 [ x86_64 ]
+=* ruby-3.0.0 [ x86_64 ]
+   ruby-3.1.0 [ x86_64 ]
+
+# => - current
+# =* - current && default
+#  * - default
+```
+
 ## Postgresql
 
 There is a `postgresql` service defined at [docker-compose.yml](https://github.com/fede-moya/sandbox/blob/master/docker-compose.yml) published on 5432 so you can communicate with it through `localhost:5432`.
