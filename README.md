@@ -1,23 +1,16 @@
-# SANDBOX
+# Sandbox
 
 Programing practice mono-repo with different projects and thechologies pre-set up ready to go for testing ideas or practicing new concepts.
 
-All of these application have been setup with some basic posts and comments domain logic.
+All of these applications have been setup with some basic posts and comments domain logic.
 
 - Standard Rails 7 application / [rails-sandbox](https://github.com/fede-moya/sandbox/tree/master/rails-sandbox)
+- Rails Hotwire / [rails-hotwire-sandbox](https://github.com/fede-moya/sandbox/tree/master/rails-hotwire-sandbox)
 - Rails 7 API only application / [rails-api-sandbox](https://github.com/fede-moya/sandbox/tree/master/rails-api-sandbox)
 - Rails GraphQL API / [rails-graphql-sandbox](https://github.com/fede-moya/sandbox/tree/master/rails-graphql-sandbox)
 - React
-- Standard Rails without hotwire
-  .ruby-version
-- rails-hotwire
-  .ruby-version
-- Rails --api
-  .ruby-version
-- rails-graphql-api
-  .ruby-version
-- redis (some basic ruby script for interacting with redis directly, demonstrating the different types of data structures it supports)
-- sql (sql script for creating a database with some dummy data, with also a script for deleting data)
+- Redis (some basic ruby script for interacting with redis directly, demonstrating the different types of data structures it supports) / [redis-ruby-sandbox](https://github.com/fede-moya/sandbox/tree/master/redis-ruby-sandbox)
+- SQL (sql script for creating a database with some dummy data, with also a script for deleting data) / [sql](https://github.com/fede-moya/sandbox/tree/master/sql-sandbox)
 
 using nvm for managing node versions
 
